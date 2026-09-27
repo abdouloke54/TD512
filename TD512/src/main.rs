@@ -20,7 +20,7 @@ fn main() {
             Ok(n) => nombre_utilisateur = n,
             Err(_) => {
                 println!("Veuillez entrer un nombre valide.");
-                return;
+                continue;
             }
         }
     
@@ -36,4 +36,4 @@ fn main() {
     }
 println!("C'est fini !");
 }
-// test
+
